@@ -24,5 +24,14 @@ export default {
       this.getImage(),
       this.getImage()
     ]
+  },
+  getUser () {
+    return {
+      id: 'ceb85d2543a89310a41669ef45b6b96fbd1a98cec2ba2b2f27d73f8ab2973331',
+      name: 'Enmanuel Jarquin',
+      username: 'theenmanuel23',
+      password: 'platzi',
+      createAt: new Date().toString()
+    }
   }
 }
