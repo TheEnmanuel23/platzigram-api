@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "standard --fix",
-    "test": "npm run lint && ava"
+    "test": "npm run lint && NODE_ENV=test ava"
   },
   "standard": {
     "parser": "babel-eslint"
@@ -17,6 +17,9 @@
     ]
   },
   "ava": {
+    "files": [
+      "test/**-test.js"
+    ],
     "require": [
       "babel-register"
     ]
