@@ -1,6 +1,6 @@
 'use strict'
 
-import { send } from 'micro'
+import { send, json } from 'micro'
 import HttpHash from 'http-hash'
 import Db from 'platzigram-db'
 import DbStub from './test/stub/db'
@@ -23,6 +23,15 @@ hash.set('GET /:id', async function getPicture (req, res, params) {
 
   await db.disconnect()
   send(res, 200, image)
+})
+
+hash.set('POST /', async function postPicture (req, res, params) {
+  let image = await json(req)
+
+  await db.connect()
+  let created = await db.saveImage(image)
+  await db.disconnect()
+  send(res, 201, created)
 })
 
 export default async function main (req, res) {
