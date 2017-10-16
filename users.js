@@ -9,9 +9,11 @@ import config from './config'
 const env = process.env.NODE_ENV || 'production'
 let db = new Db(config.db)
 
+/*
 if (env === 'test') {
   db = new DbStub()
 }
+*/
 
 const hash = HttpHash()
 

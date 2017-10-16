@@ -1,0 +1,21 @@
+2017-10-15T23:12:24.888335442 1.497792s notice: Recursively removing directory /home/enmisac/Documents/node_projects/platzigram-api/rethinkdb_data/tmp
+2017-10-15T23:12:24.942406297 1.551848s notice: Initializing directory /home/enmisac/Documents/node_projects/platzigram-api/rethinkdb_data
+2017-10-15T23:12:24.942778654 1.552210s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/enmisac/Documents/node_projects/platzigram-api/rethinkdb_data' did not already exist or is empty.)
+2017-10-15T23:12:24.942856168 1.552288s notice: Running rethinkdb 2.3.6~0trusty (GCC 4.8.2)...
+2017-10-15T23:12:24.965000275 1.574440s notice: Running on Linux 4.2.0-42-generic i686
+2017-10-15T23:12:24.965241382 1.574672s notice: Loading data from directory /home/enmisac/Documents/node_projects/platzigram-api/rethinkdb_data
+2017-10-15T23:12:25.247256054 1.856695s info: Automatically using cache size of 632 MB
+2017-10-15T23:12:25.252985178 1.862419s notice: Listening for intracluster connections on port 29015
+2017-10-15T23:12:25.261645072 1.871080s notice: Listening for client driver connections on port 28015
+2017-10-15T23:12:25.262182282 1.871614s notice: Listening for administrative HTTP connections on port 8080
+2017-10-15T23:12:25.262201547 1.871632s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-15T23:12:25.262209642 1.871640s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-15T23:12:25.262224375 1.871655s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-15T23:12:25.262237273 1.871668s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-10-15T23:12:25.262250639 1.871681s notice: Server ready, "enmsiac_8av" 38b0080e-2b94-4ec1-b07d-24926bd450e2
+2017-10-15T23:40:39.283760062 1695.893193s info: Table a91b514b-750c-4d57-89ab-a0a1bbd608e5: Starting a new Raft election for term 1.
+2017-10-15T23:40:39.293571249 1695.903005s info: Table a91b514b-750c-4d57-89ab-a0a1bbd608e5: Added replica on this server.
+2017-10-15T23:40:39.360213518 1695.969647s info: Table a91b514b-750c-4d57-89ab-a0a1bbd608e5: This server is Raft leader for term 1. Latest log index is 0.
+2017-10-15T23:40:53.967780742 1710.577213s info: Table 41498b0e-8e6b-4a40-8cec-ed6054935ab0: Starting a new Raft election for term 1.
+2017-10-15T23:40:53.968451575 1710.577883s info: Table 41498b0e-8e6b-4a40-8cec-ed6054935ab0: Added replica on this server.
+2017-10-15T23:40:54.012813427 1710.622246s info: Table 41498b0e-8e6b-4a40-8cec-ed6054935ab0: This server is Raft leader for term 1. Latest log index is 0.
